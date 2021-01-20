@@ -13,5 +13,5 @@ pip install apod.py
 import apod 
 client = apod.Client("api_key") #replace "api key" with your api key
 data = client.fetch() #this will return a json file
-print(data) will print the json file
+print(data) #will print the json file
 ```
